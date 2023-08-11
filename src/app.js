@@ -19,6 +19,9 @@ window.onload = function() {
           document.write(
             `${pronoun[i]}` + `${adj[j]}` + `${noun[k]}` + `${domain[l]}`
           );
+          console.log(
+            `${pronoun[i]}` + `${adj[j]}` + `${noun[k]}` + `${domain[l]}`
+          );
         }
       }
     }
